@@ -1,5 +1,16 @@
 # ComelonesAI - Sistema de Recomendacion Nutricional Inteligente
 ComelonesAI es un sistema de recomendacion de alimentos basado en inteligencia artificial el cual cuenta con mas de 8000 alimentos para sugerencias mas personalizadas segun tus objetivos nutricionales como ser: bajar de peso, subir de peso o cumplir con alguna meta de calorias especifica.
+## Instalcion 
+1. Clonar el repositorio  (o descargar manualmente):
+git clone https://github.com/Diegootm/ComelonesAI.git
+2. Descargar las siguientes librerias para su funcionamiento
+   - flask==2.3.2            - Framework para crear la API web
+   - pandas==1.5.3           - Manipulación y análisis de datos
+   - scikit-learn==1.2.2     - Machine Learning (clustering, similitud coseno)
+   - joblib==1.2.0           - Guardar/cargar modelos entrenados
+   - numpy==1.24.3           - Cálculos numéricos eficientes
+   - python-dotenv==1.0.0    - Manejo de variables de entorno (opcional)
+
 
 ## Caracteristicas principales
 - 🍎 Base de datos con 8000+ alimentos y su información nutricional completa
